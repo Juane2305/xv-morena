@@ -38,13 +38,13 @@ const MusicPlayer = ({ cancion, initialPlay = false }) => {
           <img
             src={pause}
             alt="Pause"
-            className="text-center size-20 ml-3 sm:ml-10 mt-9 animate-custom-bounce bg-black rounded-full p-4 fixed bg-opacity-40 z-50"
+            className="text-center size-20 ml-3 sm:ml-10 mt-9 animate-custom-bounce bg-pink-400 rounded-full p-4 fixed bg-opacity-40 z-50"
           />
         ) : (
           <img
             src={icon}
             alt="Play"
-            className="text-center size-20 ml-3 sm:ml-10 mt-9 animate-custom-bounce bg-black rounded-full p-4 fixed bg-opacity-40 z-50"
+            className="text-center size-20 ml-3 sm:ml-10 mt-9 animate-custom-bounce bg-pink-400 rounded-full p-4 fixed bg-opacity-40 z-50"
           />
         )}
       </button>

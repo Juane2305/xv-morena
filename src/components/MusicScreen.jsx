@@ -37,14 +37,14 @@ export default function MusicScreen({ templateId, cancion }) {
       <MusicPlayer cancion={cancion} initialPlay={initialPlay} />
 
       {showModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">
+        <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center">
           <div className="bg-white w-80 p-6 rounded-md text-center">
             <h2 className="text-2xl font-semibold mb-4">
               ¿Deseas ingresar con música?
             </h2>
             <div className="flex flex-col gap-4">
               <button
-                className="bg-golden text-white py-2 rounded hover:bg-golden/60 transition"
+                className="bg-pink-400 text-white py-2 rounded hover:bg-pink-300/60 transition"
                 onClick={() => handleChoice("withMusic")}
               >
                 Con música

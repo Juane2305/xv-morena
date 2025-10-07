@@ -12,6 +12,7 @@ import Footer from "./Footer";
 import TextoFinal from "./TextoFinal";
 import LugaresXV from "./LugaresXV";
 import { FocusCardsDemo } from "./FocusCardsDemo";
+import song from '../assets/song.mp3'
 
 import DressCodeEsmeralda from "./DressCodeEsmeralda";
 import PastelCountdown from "./CountdownCircles";
@@ -30,7 +31,7 @@ const Invitacion = () => {
     <div className="w-full font-eleganteText relative overflow-hidden bg-[#f8f5f0]">
 
         <div className="absolute z-40">
-          <MusicScreen cancion="https://res.cloudinary.com/dfschbyq2/video/upload/v1742765467/Taylor_Swift_-_Wildest_Dreams_qzmkky.mp3" />
+          <MusicScreen cancion={song} />
         </div>
 
       <div className="relative flex flex-col justify-center items-center min-h-screen w-full text-center bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1759792248/1e424b0c-d949-478c-a2d0-8490cb4870c8_zwvclx.jpg')] md:bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1759792231/e4bb6bf2-2cc9-40ac-87ba-a2bbbaa4e7c5_ydr9au.jpg')] bg-center bg-cover font-eleganteText space-y-5 overflow-hidden">
