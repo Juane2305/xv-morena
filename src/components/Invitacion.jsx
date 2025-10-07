@@ -34,7 +34,7 @@ const Invitacion = () => {
           <MusicScreen cancion={song} />
         </div>
 
-      <div className="relative flex flex-col justify-center items-center min-h-screen w-full text-center bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1759792248/1e424b0c-d949-478c-a2d0-8490cb4870c8_zwvclx.jpg')] md:bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1759792231/e4bb6bf2-2cc9-40ac-87ba-a2bbbaa4e7c5_ydr9au.jpg')] bg-center bg-cover font-eleganteText space-y-5 overflow-hidden">
+      <div className="relative flex flex-col justify-center items-center min-h-screen w-full text-center bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1759797763/a5d38449-5f89-4e02-914c-6cb9f447ba7e_z2dcip.jpg')] md:bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1759792231/e4bb6bf2-2cc9-40ac-87ba-a2bbbaa4e7c5_ydr9au.jpg')] bg-center bg-cover font-eleganteText space-y-5 overflow-hidden">
         <div className="absolute inset-0 h-full w-full bg-black/40 z-0"></div>
         <div data-aos="fade-in">
 
